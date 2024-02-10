@@ -1,9 +1,14 @@
 .hero {
     background-color: #FFBFD0;
     height: 100vh;
+    justify-content: center;
+    
 }
 
-.img {
-    width: 50px;
-    height: 30px;
+.image {
+    width: 300px;
+    display: flex;
+    height: 100px;
+    margin-left: 25%;
+    padding-top: 10%;
 }
