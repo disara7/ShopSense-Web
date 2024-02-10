@@ -14,7 +14,7 @@ const Hero = () => {
         <p>ShopSense elevates online shopping experience to blind people through 
           “taps” on the screen, with artificial intelligence assisting you 
           selecting your perfect fit with comprehensive narrating.</p>
-        <button>ADD YOUR PRODUCT <MdNavigateNext /></button>
+        <button>ADD YOUR PRODUCT <div className="icon"><MdNavigateNext /></div> </button>
     </div>
   )
 }

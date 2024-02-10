@@ -40,5 +40,13 @@
     padding-left: 2rem;
     margin-left: 5%;
     margin-top: 1.5rem;
+    display: flex;
 }
 
+.icon {
+    display: flex;
+    font-size: 26px;
+    color: #FFBFD0;
+    margin-left: 0.8rem;
+    font-weight: 800;
+}
