@@ -1,3 +1,29 @@
 .navbar {
     height: 10vh;
+    padding-top: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    gap: 2rem;
+    margin-left: 1%;
+}
+
+.list li {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.left {
+    display: flex;
+    gap: 3rem;
+    margin-left:55%;
+}
+
+.left li {
+    font-weight: 400;
 }
