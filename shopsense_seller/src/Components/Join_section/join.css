@@ -16,6 +16,7 @@
   margin-left: 5rem;
   margin-right: 5rem;
   margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .text_box {
@@ -70,4 +71,17 @@
   height: auto;
 
   border-radius: 26px;
+}
+
+.Card_header,
+.Highlight {
+  font-family: "Reforma Grotesk Medium W08 Rg";
+  font-size: 85px;
+  line-height: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Highlight {
+  color: #fe7a9d;
 }
