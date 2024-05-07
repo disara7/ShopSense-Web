@@ -1,4 +1,10 @@
 .card_holder {
   display: flex;
   justify-content: center;
+  margin: 0%;
+}
+
+app {
+  margin: 0%;
+  padding: 0%;
 }

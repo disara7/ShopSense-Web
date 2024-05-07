@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Join_section from "./Components/Join_section/join";
 import Card from "./Components/Card/card";
 import Instructions from "./Components/Card/cardData.js";
+import Footer from "./Components/Footer/footer.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
@@ -11,12 +12,12 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <Hero />
       <Join_section />
-
       <div className="card_holder">{Cards}</div>
+      <Footer />
     </div>
   );
 }
