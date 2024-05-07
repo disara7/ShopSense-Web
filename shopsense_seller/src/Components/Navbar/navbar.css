@@ -18,6 +18,10 @@
   cursor: pointer;
   position: relative;
 }
+.CustomLink {
+  text-decoration: none;
+  color: #000000;
+}
 
 .List li::after {
   content: "";

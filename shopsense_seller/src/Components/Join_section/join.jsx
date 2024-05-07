@@ -9,7 +9,7 @@ const Join_section = () => {
         <div className="content_section">
           <div className="Header_text">
             {" "}
-            GET START WITH <br />
+            GET STARTED WITH <br />
             SHOPSENSE !
           </div>
           <br />

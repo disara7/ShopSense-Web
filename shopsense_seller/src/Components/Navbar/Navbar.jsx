@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../Assets/logo.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,7 +14,11 @@ function Navbar() {
       <div>
         <ul className="List">
           <li className="stuck">Home</li>
-          <li>About Us</li>
+          <li>
+            <Link to="/About" className="CustomLink">
+              About Us
+            </Link>
+          </li>
           <li>Benefit</li>
         </ul>
       </div>
