@@ -1,22 +1,33 @@
-import React from 'react'
-import './hero.css'
-import logo from '../Assets/logo.png'
-import { MdNavigateNext } from "react-icons/md";
-
+import React from "react";
+import "./hero.css";
+import Hero_img from "../Assets/Hero.png";
+import Badge from "../Assets/Badge.png";
+import Color from "../Assets/Color.png";
 
 const Hero = () => {
   return (
-    <div className='hero'>
-      <h1>ONLINE SHOPPING FOR THE BLIND</h1>
-        <div className="image">
-            <img src={logo} alt="" />
-        </div>
-        <p>ShopSense elevates online shopping experience to blind people through 
-          “taps” on the screen, with artificial intelligence assisting you 
-          selecting your perfect fit with comprehensive narrating.</p>
-        <button>ADD YOUR PRODUCT <div className="icon"><MdNavigateNext /></div> </button>
-    </div>
-  )
-}
+    <div className="hero">
+      <div className="content">
+        <p>
+          Our platform provides comprehensive tools and services for sellers
+          through our website, empowering them to manage their businesses with
+          ease.
+        </p>
+        <img src={Badge} alt="" className="badge" />
+      </div>
 
-export default Hero
+      <div className="content2">
+        <img src={Color} alt="" className="color" />
+        <p>
+          ShopSense enhances the online shopping experience for blind people
+          through screen taps, with artificial intelligence providing
+          assistance.
+        </p>
+      </div>
+
+      <img src={Hero_img} alt="" className="Hero_img" />
+    </div>
+  );
+};
+
+export default Hero;
