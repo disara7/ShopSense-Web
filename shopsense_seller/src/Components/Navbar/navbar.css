@@ -32,7 +32,7 @@
 
 .List li:hover::after,
 .List li.stuck::after {
-  background-color: black;
+  background-color: #fe7a9d;
 }
 
 .Join_button {
