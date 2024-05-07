@@ -1,20 +1,27 @@
-import React from 'react'
-import './navbar.css'
+import React from "react";
+import "./navbar.css";
+import logo from "../Assets/logo.png";
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <div className='navbar'>
-        <ul className='list'>
-          <li>SELLER PORTAL</li>
-          <div className="left">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Join</li>
-          </div>
+    <nav>
+      <div>
+        {" "}
+        <img src={logo} alt="" className="Logo" />
+      </div>
+
+      <div>
+        <ul className="List">
+          <li className="stuck">Home</li>
+          <li>About Us</li>
+          <li>Benefit</li>
         </ul>
-    </div>
-  )
+      </div>
+      <div>
+        <button className="Join_button">Join Us</button>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
