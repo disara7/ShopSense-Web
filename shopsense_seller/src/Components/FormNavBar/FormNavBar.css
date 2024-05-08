@@ -1,0 +1,27 @@
+.FormNavBar {
+  background-color: #ffbfd0;
+  margin: 0%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.Join_button2 {
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  height: 45px;
+  background: #000000;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+  margin-right: 60px;
+}
+
+.Join_button2:hover {
+  background-color: #fe7a9d;
+  color: #000000;
+}

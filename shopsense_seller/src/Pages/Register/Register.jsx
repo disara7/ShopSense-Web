@@ -51,7 +51,11 @@ function Register() {
             className="passwordlogin"
             type="password"
           ></input>
-          <button className="Signinbtn">NEXT</button>
+          <button className="Signinbtn">
+            <Link to="/Form01" className="CustomLink2">
+              NEXT
+            </Link>
+          </button>
         </div>
       </div>
     </div>

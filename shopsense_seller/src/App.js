@@ -7,6 +7,8 @@ import About from "./Pages/About/About.jsx";
 import Benifit from "./Pages/Benifit/Benifit.jsx";
 import Login from "./Pages/Login/Login.jsx";
 import Register from "./Pages/Register/Register.jsx";
+import Form01 from "./Pages/RegistrationForm01/Form01.jsx";
+import Form02 from "./Pages/RegistrationForm02/Form02.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
@@ -22,6 +24,8 @@ function App() {
           <Route path="/Benifit" element={<Benifit />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
+          <Route path="/Form01" element={<Form01 />} />
+          <Route path="/Form02" element={<Form02 />} />
         </Routes>
       </div>
     </Router>
