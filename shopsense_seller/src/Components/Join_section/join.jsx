@@ -1,6 +1,7 @@
 import React from "react";
 import "./join.css";
 import Join_img from "../Assets/join_img.jpg";
+import { Link } from "react-router-dom";
 
 const Join_section = () => {
   return (
@@ -22,7 +23,11 @@ const Join_section = () => {
           <br />
           <div className="Button_section">
             <button className="Join_btn">Join</button>
-            <button className="Signin_btn">Sign In</button>
+            <button className="Signin_btn">
+              <Link to="/Login" className="CustomLink">
+                Sign In
+              </Link>
+            </button>
           </div>
         </div>
         <div className="Image_section">
