@@ -1,30 +1,57 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../Components/Navbar/Navbar";
-import LoginImg from "../../Components/Assets/LoginImg.png";
+import RegisterImg from "../../Components/Assets/RegisterImg.png";
 import "./Register.css";
+import logo from "../../Components/Assets/logo.png";
+import Arrow from "../../Components/Assets/Arrow.png";
 
 function Register() {
   return (
     <div>
-      <Navbar />
-
-      <div className="Loginsection">
-        <div className="LoginImageBar">
-          <img src={LoginImg} />
+      <div className="Registersection">
+        <div className="RegisterImageBar">
+          <img src={RegisterImg} className="RegisterMainImg" />
+          <div className="Registerimgtexrbar">
+            <div className="LogosectionRegister">
+              <span>
+                <img src={logo} className="logoRegister" />
+              </span>
+              <span>
+                <img src={Arrow} />
+              </span>
+            </div>
+            <p>
+              ShopSense elevates online shopping experience to blind people
+              through “taps” on the screen, with artificial intelligence.
+            </p>
+          </div>
         </div>
 
-        <div className="LoginContent">
-          <h1>SHOPSENSE</h1>
-          <h2>Seller center</h2>
-          <p>
-            Please login using the AliExpress seller account(do not use buyer
-            account)
-          </p>
-          <input placeholder="Email or phone number"></input>
-          <input placeholder="Enter password"></input>
-          <span>Forget Password ?</span>
-          <button>SIGN IS</button>
-          <span>Dont have an Account ? Sign Up</span>
+        <div className="RegisterContent">
+          <div className="headersectionRegister">
+            <div className="Loginhead1">SHOPSENSE</div>
+            <span className="Loginhead2">Let’s Start !</span>
+          </div>
+          <br />
+          <label className="registerlable">Phone</label>
+          <br />
+          <input
+            placeholder="Enter Phone number"
+            className="emaillogin"
+          ></input>{" "}
+          <label className="registerlable">Password</label>
+          <br />
+          <input
+            placeholder="Enter password"
+            className="passwordlogin"
+            type="password"
+          ></input>{" "}
+          <input
+            placeholder="Confirm Password "
+            className="passwordlogin"
+            type="password"
+          ></input>
+          <button className="Signinbtn">NEXT</button>
         </div>
       </div>
     </div>
