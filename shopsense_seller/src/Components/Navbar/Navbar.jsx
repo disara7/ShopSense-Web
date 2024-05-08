@@ -19,7 +19,11 @@ function Navbar() {
               About Us
             </Link>
           </li>
-          <li>Benefit</li>
+          <li>
+            <Link to="/Benifit" className="CustomLink">
+              Benefit{" "}
+            </Link>
+          </li>
         </ul>
       </div>
       <div>
