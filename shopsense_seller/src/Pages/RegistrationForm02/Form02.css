@@ -63,16 +63,3 @@ form button {
 
   transition: all 0.3s ease;
 }
-
-.formbtn {
-  width: 490px;
-  height: 50px;
-  background: #000000;
-  border-radius: 8px;
-  border: none;
-  color: #ffbfd0;
-  font-size: 20px;
-  font-weight: 500;
-  margin-right: 10px;
-  cursor: pointer;
-}

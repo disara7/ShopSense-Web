@@ -1,0 +1,88 @@
+.Form {
+  justify-content: center;
+}
+
+.steps-container {
+  position: relative;
+}
+
+.progress-line {
+  position: absolute;
+  height: 2px;
+  background: rgb(0, 0, 0);
+  width: 0;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  transition: all 0.25s ease;
+}
+
+.steps-wrapper-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+}
+
+.steps-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px; /* Set your desired width */
+  margin: auto;
+}
+
+.steps {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.steps.active {
+  background-color: #ffbfd0;
+}
+
+.Buttonholdermainpage {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin-top: 20px; /* Add margin as needed */
+}
+
+.Buttonholdermainpage button {
+  margin-right: 10px;
+}
+
+.Backbtn {
+  width: 490px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid black;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Nextbtn {
+  width: 490px;
+  height: 50px;
+  background: #000000;
+  border-radius: 8px;
+  border: none;
+  color: #ffbfd0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}

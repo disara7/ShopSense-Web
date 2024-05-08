@@ -52,7 +52,7 @@ function Register() {
             type="password"
           ></input>
           <button className="Signinbtn">
-            <Link to="/Form01" className="CustomLink2">
+            <Link to="/Form" className="CustomLink2">
               NEXT
             </Link>
           </button>

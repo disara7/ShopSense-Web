@@ -48,7 +48,20 @@ function MyComponent() {
       )}
 
       {/* Progress */}
-      <div className="step">{/* Your progress indicators go here */}</div>
+      <div className="progress-bar">
+        <div className="step" style={{ opacity: current >= 1 ? 1 : 0.5 }}>
+          1
+        </div>
+        <div className="step" style={{ opacity: current >= 2 ? 1 : 0.5 }}>
+          2
+        </div>
+        <div className="step" style={{ opacity: current >= 3 ? 1 : 0.5 }}>
+          3
+        </div>
+        <div className="step" style={{ opacity: current >= 4 ? 1 : 0.5 }}>
+          4
+        </div>
+      </div>
     </div>
   );
 }

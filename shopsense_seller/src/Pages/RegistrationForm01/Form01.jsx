@@ -10,9 +10,6 @@ function Form01() {
   const [selected, setSelected] = useState("");
   return (
     <div>
-      <FormNavBar />
-      <CompleteBar />
-
       <div className="form01">
         <div className="formheader">
           Hey Seller, How about we get to know you better?
@@ -53,9 +50,6 @@ function Form01() {
               ></input>
             </div>
           </div>
-          <Link to="/Form02">
-            <button className="Signinbtn">NEXT</button>
-          </Link>
         </form>
       </div>
     </div>

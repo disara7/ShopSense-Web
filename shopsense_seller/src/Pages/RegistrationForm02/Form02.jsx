@@ -4,15 +4,14 @@ import CompleteBar from "../../Components/CompleteBar/CompleteBar";
 import FormNavBar from "../../Components/FormNavBar/FormNavBar";
 import ToggleSwitch from "../../Components/ToggleSwitch/ToggleSwitch";
 import { useState } from "react";
-import ReactFlagsSelect from "react-flags-select";
-
+import { useNavigate } from "react-router-dom";
+import ButtonBar from "../../Components/ButtonBar/ButtonBar";
+import Form from "../Form/Form";
 function Form02() {
-  const [selected, setSelected] = useState("");
+  const history = useNavigate();
+
   return (
     <div>
-      <FormNavBar />
-      <CompleteBar />
-
       <div className="form01">
         <div className="formheader">Address Information</div>
 
@@ -42,9 +41,6 @@ function Form02() {
               </div>
             </div>
           </div>
-          <button className="formbtn" id="form2button">
-            NEXT
-          </button>
         </form>
       </div>
     </div>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../Components/Navbar/Navbar";
 import RegisterImg from "../../Components/Assets/RegisterImg.png";
 import "./CompleteBar.css";
-import "./Script";
+import "./Script.js";
 
 function CompleteBar() {
   return (
