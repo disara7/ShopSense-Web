@@ -1,0 +1,29 @@
+.Nextformbtn {
+  width: 490px;
+  height: 50px;
+  background: #000000;
+  border-radius: 8px;
+  border: none;
+  color: #ffbfd0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Backformbtn {
+  width: 490px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid black;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.ButtonHolderform {
+  margin-top: 10px;
+}

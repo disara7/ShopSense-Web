@@ -1,29 +1,72 @@
-.navbar {
-    height: 8vh;
-    padding-top: 1rem;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-ul {
-    list-style: none;
+.Logo {
+  width: 150px;
 }
 
-.list {
-    display: flex;
-    gap: 2rem;
-    margin-left: 1%;
+.List {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  gap: 77px;
+  padding: 0%;
 }
 
-.list li {
-    font-weight: 700;
-    font-size: 20px;
+.List li {
+  cursor: pointer;
+  position: relative;
+}
+.CustomLink {
+  text-decoration: none;
+  color: #000000;
 }
 
-.left {
-    display: flex;
-    gap: 3rem;
-    margin-left:55%;
+.List li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
 }
 
-.left li {
-    font-weight: 400;
+.List li:hover::after,
+.List li.stuck::after {
+  background-color: #fe7a9d;
+}
+
+.Join_button {
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  height: 45px;
+  background: #000000;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+.Join_button:hover {
+  background-color: #fe7a9d;
+  color: #000000;
+}
+
+nav {
+  margin: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1138px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.Nevigation_bar {
+  justify-content: center;
 }

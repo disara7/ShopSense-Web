@@ -1,0 +1,21 @@
+.card {
+  width: 250px;
+  left: 66px;
+  padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #d8d6d6de;
+  border-radius: 14px;
+  text-align: center;
+  margin: 10px;
+}
+
+.card_text {
+  text-align: center;
+  margin: 0%;
+}
+
+.Card_section {
+  margin-top: 30px;
+  align-items: center;
+}

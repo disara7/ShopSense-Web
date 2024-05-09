@@ -1,0 +1,59 @@
+.Registersection {
+  display: flex;
+}
+.RegisterMainImg {
+  width: 100%;
+  height: auto;
+}
+
+.RegisterImageBar {
+  width: 50%;
+  background-color: #ffbfd0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.logoRegister {
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.LogosectionRegister {
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+  padding-left: 20px;
+}
+
+.RegisterImageBar p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.Registerimgtexrbar {
+  align-items: center;
+  justify-content: center;
+}
+
+.RegisterContent {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headersectionRegister {
+  line-height: 70px;
+}
+
+.registerlable {
+  font-weight: 600;
+}
+
+.CustomLink2 {
+  text-decoration: none;
+  color: #ffbfd0;
+}
