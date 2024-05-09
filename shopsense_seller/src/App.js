@@ -10,6 +10,7 @@ import Register from "./Pages/Register/Register.jsx";
 import Form01 from "./Pages/RegistrationForm01/Form01.jsx";
 import Form02 from "./Pages/RegistrationForm02/Form02.jsx";
 import Form from "./Pages/Form/Form.js";
+import ProductAdd1 from "./Pages/ProductAdd01/ProductAdd01.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/Form01" element={<Form01 />} />
           <Route path="/Form02" element={<Form02 />} />
           <Route path="/Form" element={<Form />} />
+          <Route path="/ProductAdd1" element={<ProductAdd1 />} />
         </Routes>
       </div>
     </Router>

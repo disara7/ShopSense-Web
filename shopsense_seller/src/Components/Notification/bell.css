@@ -1,0 +1,65 @@
+.bell {
+  background: #000000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  user-select: none;
+}
+
+.bell > span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.bell > span.has-notifications:after {
+  color: red;
+  content: "\00B7";
+  position: absolute;
+  font-size: 30px;
+  right: 6px;
+  top: -9px;
+}
+
+div.notification-hub {
+  background: #ffffff;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border: 0.5px solid rgb(173 164 164);
+  color: #000000;
+  /* height: 80vh; */
+  right: 0;
+  position: absolute;
+  text-align: right;
+  top: 100%;
+  width: 40vh;
+  margin-top: 3px;
+}
+
+.notification-hub header {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.notification-hub a {
+  float: right;
+  font-size: 12px;
+  margin-top: 3px;
+  text-decoration: none;
+}
+
+.notification-hub ul {
+  border-top: 1px solid #ddd;
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+}
+
+.notification-hub li {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  font-size: 15px;
+}
