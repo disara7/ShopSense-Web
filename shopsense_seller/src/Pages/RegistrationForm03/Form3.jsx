@@ -8,9 +8,7 @@ function Form03() {
   return (
     <div>
       <div className="form03">
-        <div className="formheader">
-          Hey Seller, How about we get to know you better?
-        </div>
+        <div className="formheader">ID & Bank Account Information</div>
 
         <form>
           <h2>Verify Identification Card</h2>
