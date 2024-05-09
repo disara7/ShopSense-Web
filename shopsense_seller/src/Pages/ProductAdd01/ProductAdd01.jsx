@@ -57,7 +57,9 @@ function ProductAdd1() {
           </div>
         </form>
         <div className="buttonHolderProduct">
-          <button className="NextBtnProduct">Next</button>
+          <Link to="/ProductAdd2">
+            <button className="NextBtnProduct">Next</button>
+          </Link>{" "}
         </div>
       </div>
     </div>

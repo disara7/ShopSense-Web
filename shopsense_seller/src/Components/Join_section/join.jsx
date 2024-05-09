@@ -22,7 +22,10 @@ const Join_section = () => {
           <br />
           <br />
           <div className="Button_section">
-            <button className="Join_btn">Join</button>
+            <Link to="/Register">
+              {" "}
+              <button className="Join_btn">Join</button>
+            </Link>
             <button className="Signin_btn">
               <Link to="/Login" className="CustomLink">
                 Sign In

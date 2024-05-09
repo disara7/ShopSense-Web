@@ -11,7 +11,9 @@ function FormNavBar() {
       </div>
 
       <div>
-        <button className="Join_button2">Join Us</button>
+        <Link to="/Register">
+          <button className="Join_button2">Join Us</button>
+        </Link>
       </div>
     </nav>
   );

@@ -1,0 +1,19 @@
+.occasion-dropdown-container {
+  display: flex;
+  align-items: center;
+}
+
+.Dselect-input {
+  height: 40px;
+  width: 800px;
+  margin-right: 0px;
+  margin-top: 0;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+#otherInput {
+  width: 240px;
+}
