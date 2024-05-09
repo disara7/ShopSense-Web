@@ -1,0 +1,26 @@
+.NextBtnProduct {
+  width: 294px;
+  height: 44px;
+  background: #000000;
+  border-radius: 8px;
+  border: none;
+  color: #ffbfd0;
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+
+  margin-bottom: 10px;
+}
+
+.buttonHolderProduct {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.productpage {
+  margin: 140px;
+  margin-top: 43px;
+  margin-bottom: 0px;
+}
