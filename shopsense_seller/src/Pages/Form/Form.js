@@ -10,8 +10,10 @@ import "./Form.css";
 import Form01 from "../RegistrationForm01/Form01";
 import Form02 from "../RegistrationForm02/Form02";
 import FormNavBar from "../../Components/FormNavBar/FormNavBar";
+import Form03 from "../RegistrationForm03/Form3";
+import Form04 from "../RegistrationForm04/Form04";
 export default function Form() {
-  const list = [<Example1 />, <Example2 />, <Example3 />, <Example4 />];
+  const list = [<Formdata01 />, <Formdata02 />, <Formdata03 />, <Formdata04 />];
   return (
     <div className="Form">
       <FormNavBar />
@@ -21,7 +23,7 @@ export default function Form() {
   );
 }
 
-const Example1 = ({ onPrev, onNext }) => {
+const Formdata01 = ({ onPrev, onNext }) => {
   return (
     <>
       <Form01 />
@@ -34,7 +36,7 @@ const Example1 = ({ onPrev, onNext }) => {
   );
 };
 
-const Example2 = ({ onPrev, onNext }) => {
+const Formdata02 = ({ onPrev, onNext }) => {
   return (
     <>
       <Form02 />
@@ -52,9 +54,10 @@ const Example2 = ({ onPrev, onNext }) => {
   );
 };
 
-const Example3 = ({ onPrev, onNext }) => {
+const Formdata03 = ({ onPrev, onNext }) => {
   return (
     <>
+      <Form03 />
       <div>
         <div className="Buttonholdermainpage">
           <button onClick={onPrev} className="Backbtn">
@@ -69,9 +72,10 @@ const Example3 = ({ onPrev, onNext }) => {
   );
 };
 
-const Example4 = ({ onPrev, onNext }) => {
+const Formdata04 = ({ onPrev, onNext }) => {
   return (
     <>
+      <Form04 />
       <div>
         <div className="Buttonholdermainpage">
           <button onClick={onPrev} className="Backbtn">
