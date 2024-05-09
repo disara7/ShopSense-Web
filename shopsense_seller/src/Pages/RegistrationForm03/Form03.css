@@ -49,3 +49,8 @@ form .user__details .input__box {
 form button {
   margin: 0 auto;
 }
+
+.uploadfileholderform3 {
+  display: flex;
+  justify-content: space-between;
+}
