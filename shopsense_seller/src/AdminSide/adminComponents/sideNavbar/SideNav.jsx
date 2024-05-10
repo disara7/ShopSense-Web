@@ -5,42 +5,64 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined";
-import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 
+import { Link, NavLink } from "react-router-dom";
+
 const SideNav = () => {
+  const menuItem = [
+    {
+      path: "/Dashboard",
+      name: "Dashboard",
+      icon: <SpaceDashboardOutlinedIcon />,
+    },
+    {
+      path: "/",
+      name: "Order",
+      icon: <ShoppingCartOutlinedIcon />,
+    },
+    {
+      path: "/",
+      name: "Products",
+      icon: <ShoppingBagOutlinedIcon />,
+    },
+    {
+      path: "/SalesStat",
+      name: "Sales Stat",
+      icon: <InsertChartOutlinedIcon />,
+    },
+    {
+      path: "/",
+      name: "Message",
+      icon: <TextsmsOutlinedIcon />,
+    },
+    {
+      path: "/",
+      name: "Withdraw",
+      icon: <MonetizationOnOutlinedIcon />,
+    },
+    {
+      path: "/",
+      name: "Sign Out",
+      icon: <LogoutOutlinedIcon />,
+    },
+  ];
   return (
     <div className="sideNav">
-      <ul>
-        <li className="dashboard">
-          <SpaceDashboardOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Dashboard</span>
-        </li>
-        <li className="orders">
-          <ShoppingCartOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Orders</span>
-        </li>
-        <li className="products">
-          <ShoppingBagOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Products</span>
-        </li>
-        <li className="salsesReport">
-          <InsertChartOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Sales Report</span>
-        </li>
-        <li className="messages">
-          <TextsmsOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Messages</span>
-        </li>
-        <li className="settings">
-          <SettingsOutlinedIcon sx={{ color: "black" }} />
-          <span className="list-text">Settings</span>
-        </li>
-        <li className="signout">
-          <LogoutOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Sign Out</span>
-        </li>
-      </ul>
+      <div className="navCon">
+        {menuItem.map((item, index) => (
+          <NavLink
+            to={item.path}
+            key={index}
+            className="link"
+            activeclassName="active"
+          >
+            <div className="icon">{item.icon}</div>
+            <div className="link_text">{item.name}</div>
+          </NavLink>
+        ))}
+      </div>
     </div>
   );
 };

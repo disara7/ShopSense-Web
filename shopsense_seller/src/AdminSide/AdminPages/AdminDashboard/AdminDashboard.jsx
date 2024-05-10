@@ -1,7 +1,7 @@
 import React from "react";
 import SideNav from "../../adminComponents/sideNavbar/SideNav";
 import "./adminDashboard.css";
-import FormNavBar from "../../../Components/FormNavBar/FormNavBar";
+import AdminNav from "../../adminComponents/adminNavbar/AdminNav";
 import Card from "../../adminComponents/card/Card";
 import TableComponent from "../../adminComponents/tableComponent/TableComponent";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
@@ -12,7 +12,7 @@ import PersonAddOutlinedIcon from "@mui/icons-material/PersonAddOutlined";
 const AdminDashboard = () => {
   return (
     <div className="dashboard-wrapper">
-      <FormNavBar />
+      <AdminNav />
       <div className="dashboard-container">
         <div className="left-flex">
           <SideNav />
