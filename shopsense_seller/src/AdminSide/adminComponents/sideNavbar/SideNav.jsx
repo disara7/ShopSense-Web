@@ -26,11 +26,12 @@ const SideNav = () => {
             <span className="list-text">Orders</span>
           </li>
         </Link>
-
-        <li className="products">
-          <ShoppingBagOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Products</span>
-        </li>
+        <Link to="/Product" className="CustomLink">
+          <li className="products">
+            <ShoppingBagOutlinedIcon style={{ color: "black" }} />
+            <span className="list-text">Products</span>
+          </li>
+        </Link>
         <li className="salsesReport">
           <InsertChartOutlinedIcon style={{ color: "black" }} />
           <span className="list-text">Sales Report</span>

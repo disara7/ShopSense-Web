@@ -15,6 +15,7 @@ import ProductAdd2 from "./Pages/ProductAdd02/ProductAdd02.jsx";
 import AdminDashboard from "./AdminSide/AdminPages/Dashboard/AdminDashboard.jsx";
 import AdminOrder from "./AdminSide/AdminPages/AdminDashboard/Orders/AdminOrders.jsx";
 import PlaceOrder from "./AdminSide/adminComponents/Place Order/PlaceOrder.jsx";
+import AdminProduct from "./AdminSide/AdminPages/AdminDashboard/Products/AdminProduct.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Dashboard" element={<AdminDashboard />} />
           <Route path="/Order" element={<AdminOrder />} />
           <Route path="/Place" element={<PlaceOrder />} />
+          <Route path="/Product" element={<AdminProduct />} />
         </Routes>
       </div>
     </Router>
