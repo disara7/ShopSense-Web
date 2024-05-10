@@ -12,6 +12,7 @@ import Form02 from "./Pages/RegistrationForm02/Form02.jsx";
 import Form from "./Pages/Form/Form.js";
 import ProductAdd1 from "./Pages/ProductAdd01/ProductAdd01.jsx";
 import ProductAdd2 from "./Pages/ProductAdd02/ProductAdd02.jsx";
+import AdminDashboard from "./AdminSide/AdminPages/AdminDashboard/AdminDashboard.jsx";
 
 
 function App() {
