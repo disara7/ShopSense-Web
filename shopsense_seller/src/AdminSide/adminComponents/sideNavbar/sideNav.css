@@ -1,36 +1,40 @@
+.active{
+    background-color: red;
+}
 .sideNav{
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    ul{
-        list-style: none;
-        align-items: center;
-        padding: 0px
-    }
-    li{
-        color: black;
-        display: flex;
-        align-items: center;
-        margin: 10px;
-        padding: 15px 20px;
-        cursor: pointer;
-        width: 150px;
-        border-radius: 10px;
-        &:hover{
-            background-color: #d0d0d06f;
-            transform: scale(1.01)
-        }
-        &:focus{
-            background-color: #d0d0d06f;
-        }
-        span{
-            padding-left: 8px;
-        }
-        }
+    
     
 }
 .list-text{
          font-size: 1.2rem;
+}
+
+.link{
+    display: flex;
+    color: #4e4d4d;
+    padding: 15px 35px;
+    margin: 12px;
+    gap: 15px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: start;
+    line-height: 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.link:hover{
+    background:rgb(216, 216, 216);
+    color: #4e4d4d;
+    transition: all 0.5s;
+    /* transform: scale(1.02) */
+}
+.active{
+    background: rgb(0, 0, 0);
+    color: #ffffff;
 }

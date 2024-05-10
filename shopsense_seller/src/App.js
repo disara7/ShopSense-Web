@@ -13,7 +13,7 @@ import Form from "./Pages/Form/Form.js";
 import ProductAdd1 from "./Pages/ProductAdd01/ProductAdd01.jsx";
 import ProductAdd2 from "./Pages/ProductAdd02/ProductAdd02.jsx";
 import AdminDashboard from "./AdminSide/AdminPages/AdminDashboard/AdminDashboard.jsx";
-
+import AdminStat from "./AdminSide/AdminPages/AdminStat/AdminStat.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
@@ -32,11 +32,10 @@ function App() {
           <Route path="/Form01" element={<Form01 />} />
           <Route path="/Form02" element={<Form02 />} />
           <Route path="/Form" element={<Form />} />
-
           <Route path="/ProductAdd1" element={<ProductAdd1 />} />
           <Route path="/ProductAdd2" element={<ProductAdd2 />} />
-
           <Route path="/Dashboard" element={<AdminDashboard />} />
+          <Route path="/SalesStat" element={<AdminStat />} />
         </Routes>
       </div>
     </Router>
