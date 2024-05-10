@@ -13,7 +13,12 @@ function Navbar() {
 
       <div>
         <ul className="List">
-          <li className="stuck">Home</li>
+          <li>
+            {" "}
+            <Link to="/" className="CustomLink">
+              Home
+            </Link>
+          </li>
           <li>
             <Link to="/About" className="CustomLink">
               About Us
@@ -27,7 +32,9 @@ function Navbar() {
         </ul>
       </div>
       <div>
-        <button className="Join_button">Join Us</button>
+        <Link to="/Register">
+          <button className="Join_button">Join Us</button>
+        </Link>
       </div>
     </nav>
   );

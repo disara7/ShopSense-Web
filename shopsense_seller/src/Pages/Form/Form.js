@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import CompleteBar from "../../Components/CompleteBar/CompleteBar";
 import ToggleSwitch from "../../Components/ToggleSwitch/ToggleSwitch";
 import { useState } from "react";
@@ -81,9 +80,9 @@ const Formdata04 = ({ onPrev, onNext }) => {
           <button onClick={onPrev} className="Backbtn">
             Back
           </button>
-          <button onClick={onNext} className="Nextbtn">
-            ADD NEW PRODUCT
-          </button>
+          <Link to="/ProductAdd1">
+            <button className="Nextbtn">ADD NEW PRODUCT</button>
+          </Link>
         </div>
       </div>
     </>
