@@ -80,7 +80,9 @@ function ProductAdd2() {
           <Link to="/ProductAdd1">
             <button className="Backformbtn">Back</button>
           </Link>
-          <button className="NextBtnProduct">Submit</button>
+          <Link to="/Dashboard">
+            <button className="NextBtnProduct">Submit</button>{" "}
+          </Link>
         </div>
       </div>
       <br /> <br /> <br />

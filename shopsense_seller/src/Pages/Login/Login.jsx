@@ -36,7 +36,9 @@ function Login() {
             type="password"
           ></input>
           <div className="foget">Forget Password ?</div>
-          <button className="Signinbtn">SIGN IS</button>
+          <Link to="/Dashboard">
+            <button className="Signinbtn">SIGN IS</button>
+          </Link>
           <div>
             Dont have an Account ?{" "}
             <Link to="/Register" className="Registeinlogin">

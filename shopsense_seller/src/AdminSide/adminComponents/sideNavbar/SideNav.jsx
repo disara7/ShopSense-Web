@@ -7,19 +7,26 @@ import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
+import { Link } from "react-router-dom";
 
 const SideNav = () => {
   return (
     <div className="sideNav">
       <ul>
-        <li className="dashboard">
-          <SpaceDashboardOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Dashboard</span>
-        </li>
-        <li className="orders">
-          <ShoppingCartOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Orders</span>
-        </li>
+        <Link to="/Dashboard" className="CustomLink">
+          <li className="dashboard">
+            <SpaceDashboardOutlinedIcon style={{ color: "black" }} />
+            <span className="list-text">Dashboard</span>
+          </li>
+        </Link>
+
+        <Link to="/Order" className="CustomLink">
+          <li className="orders">
+            <ShoppingCartOutlinedIcon style={{ color: "black" }} />
+            <span className="list-text">Orders</span>
+          </li>
+        </Link>
+
         <li className="products">
           <ShoppingBagOutlinedIcon style={{ color: "black" }} />
           <span className="list-text">Products</span>
@@ -34,7 +41,7 @@ const SideNav = () => {
         </li>
         <li className="settings">
           <SettingsOutlinedIcon sx={{ color: "black" }} />
-          <span className="list-text">Settings</span>
+          <span className="list-text">Withdraw</span>
         </li>
         <li className="signout">
           <LogoutOutlinedIcon style={{ color: "black" }} />

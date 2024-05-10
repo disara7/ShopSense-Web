@@ -12,7 +12,10 @@ import PersonAddOutlinedIcon from "@mui/icons-material/PersonAddOutlined";
 const AdminDashboard = () => {
   return (
     <div className="dashboard-wrapper">
-      <FormNavBar />
+      <div className="TopMenuAdmin">
+        <FormNavBar />
+      </div>
+
       <div className="dashboard-container">
         <div className="left-flex">
           <SideNav />
