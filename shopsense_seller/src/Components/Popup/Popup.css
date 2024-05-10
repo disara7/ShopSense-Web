@@ -24,14 +24,14 @@ body.active-modal {
 }
 .modal-content {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   line-height: 1.4;
-  background: #f1f1f1;
+  background: #ffffff;
   padding: 14px 28px;
   border-radius: 3px;
-  max-width: 600px;
+  max-width: 2000px;
   min-width: 300px;
 }
 
@@ -40,4 +40,16 @@ body.active-modal {
   top: 10px;
   right: 10px;
   padding: 5px 7px;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+
+.ButtonHolderPopUp {
+  margin-top: 20px;
+}
+
+.ButtonHolderPopUp button {
+  margin-right: 10px;
+  cursor: pointer;
 }

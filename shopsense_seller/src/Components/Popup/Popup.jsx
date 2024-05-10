@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Popup.css";
+import PlaceOrder from "../../AdminSide/adminComponents/Place Order/PlaceOrder";
 
 export default function Popup() {
   const [modal, setModal] = useState(false);
@@ -14,6 +15,12 @@ export default function Popup() {
     document.body.classList.remove("active-modal");
   }
 
+  const openPdfInNewTab = () => {
+    const pdfUrl = "./Invoice.pdf";
+
+    window.open(pdfUrl, "_blank");
+  };
+
   return (
     <>
       <button onClick={toggleModal} className="btn-modal">
@@ -24,17 +31,16 @@ export default function Popup() {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
+            <h2>Place Order</h2>
+            <PlaceOrder />
+            <div className="ButtonHolderPopUp">
+              <button>All Document</button>
+              <button onClick={openPdfInNewTab}>Invoices</button>
+              <button>Shipping Leble</button>
+              <button>Ready to ship</button>
+            </div>
             <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+              ❌
             </button>
           </div>
         </div>
