@@ -33,6 +33,6 @@
   /* transform: scale(1.02) */
 }
 .active {
-  background: rgb(0, 0, 0);
-  color: #ffffff;
+  background: #ffbfd0;
+  color: #000000;
 }

@@ -17,6 +17,7 @@ export default function Form() {
     <div className="Form">
       <FormNavBar />
       <br /> <br /> <br />
+      <br /> <br /> <br />
       <Stepper list={list} />
     </div>
   );

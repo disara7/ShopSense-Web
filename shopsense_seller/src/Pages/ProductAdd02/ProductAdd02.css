@@ -19,8 +19,8 @@
   justify-content: center;
 }
 
-.productpage {
-  margin: 140px;
+.productpage2 {
+  margin: 40px;
   margin-top: 43px;
   margin-bottom: 0px;
 }
@@ -30,7 +30,7 @@
 }
 
 .producttextbox {
-  width: 100%;
+  width: 95%;
   min-height: 200px;
   font-size: 16px;
   padding: 20px;

@@ -16,7 +16,7 @@ function ProductAdd2() {
   return (
     <div className="pa-wrapper">
       <SignUpNavBar />
-      <div className="productpage">
+      <div className="productpage2">
         <div className="formheader">- Product Information -</div>
         <h2>Product Images</h2>
         <div className="Imageproduct02">
