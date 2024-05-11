@@ -7,6 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Popup from "../../../Components/Popup/Popup";
+import { Link } from "react-router-dom";
 import LinearProgress, {
   linearProgressClasses,
 } from "@mui/material/LinearProgress";
@@ -57,7 +58,9 @@ const rows = [
 
     "Pending",
     "✔️",
-    <button>Edit More</button>
+    <Link to="/EditAdmin">
+      <button>Edit More</button>
+    </Link>
   ),
   createData(
     "#2",

@@ -1,0 +1,77 @@
+.NextBtnProduct {
+  width: 294px;
+  height: 44px;
+  background: #000000;
+  border-radius: 8px;
+  border: none;
+  color: #ffbfd0;
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 10px;
+  cursor: pointer;
+
+  margin-bottom: 10px;
+}
+
+.buttonHolderProduct {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.productpage {
+  margin: 140px;
+  margin-top: 43px;
+  margin-bottom: 0px;
+}
+
+.EditBoxHolder {
+  display: flex;
+}
+
+.editbtn2 {
+  margin-left: 10px;
+  width: 60px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.ProductImageHplder {
+  display: flex;
+}
+
+.ProductImageHplder img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.ImageEditHolder span {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  background-color: white;
+  padding: 8px;
+  padding-top: 2px;
+  border-radius: 6px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ImageEditHolder {
+  position: relative;
+  display: inline-block;
+}
+
+.BackProductEdit {
+  margin-right: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: none;
+  font-size: 30px;
+  cursor: pointer;
+}
