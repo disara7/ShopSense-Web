@@ -14,12 +14,13 @@ import ProductAdd1 from "./Pages/ProductAdd01/ProductAdd01.jsx";
 import ProductAdd2 from "./Pages/ProductAdd02/ProductAdd02.jsx";
 import AdminDashboard from "./AdminSide/AdminPages/Dashboard/AdminDashboard.jsx";
 import AdminStat from "./AdminSide/AdminPages/AdminStat/AdminStat.jsx";
+import Payout from "./AdminSide/AdminPages/payouts/Payout.jsx";
+import AdminProduct from "./AdminSide/AdminPages/AdminDashboard/Products/AdminProduct.jsx";
+import AdminOrder from "./AdminSide/AdminPages/AdminDashboard/Orders/AdminOrders.jsx";
+import AdminEdit from "./AdminSide/AdminPages/AdminDashboard/Edit/AdminEdit.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
-
-  
-  
     return <Card card={card} />;
   });
   return (
@@ -38,20 +39,13 @@ function App() {
           <Route path="/ProductAdd2" element={<ProductAdd2 />} />
           <Route path="/Dashboard" element={<AdminDashboard />} />
           <Route path="/SalesStat" element={<AdminStat />} />
+          <Route path="/Payout" element={<Payout />} />
+          <Route path="/Products" element={<AdminProduct />} />
+          <Route path="/Order" element={<AdminOrder />} />
+          <Route path="/EditAdmin" element={<AdminEdit />} />
         </Routes>
       </div>
     </Router>
-
-    
-          
-            
-    
-
-          
-
-    
-    
-  
   );
 }
 export default App;

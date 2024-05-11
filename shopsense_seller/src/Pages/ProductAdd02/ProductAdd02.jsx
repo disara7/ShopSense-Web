@@ -14,7 +14,7 @@ import Delivery from "../../Components/DeliveryOption/Delivery";
 
 function ProductAdd2() {
   return (
-    <div>
+    <div className="pa-wrapper">
       <SignUpNavBar />
       <div className="productpage">
         <div className="formheader">- Product Information -</div>

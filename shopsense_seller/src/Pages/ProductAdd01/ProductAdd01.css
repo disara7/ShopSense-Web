@@ -1,3 +1,7 @@
+.pa-wrapper {
+  display: flex;
+  position: relative;
+}
 .NextBtnProduct {
   width: 294px;
   height: 44px;

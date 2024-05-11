@@ -11,7 +11,7 @@ import SizeDropdown from "../../Components/Size/Size";
 
 function ProductAdd1() {
   return (
-    <div>
+    <div className="pa-wrapper">
       <SignUpNavBar />
 
       <div className="productpage">
