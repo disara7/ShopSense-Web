@@ -26,7 +26,8 @@
     &:focus {
       background-color: #d0d0d06f;
     }
-    span {
+    
+span {
       padding-left: 8px;
     }
   }

@@ -13,17 +13,15 @@ import Form from "./Pages/Form/Form.js";
 import ProductAdd1 from "./Pages/ProductAdd01/ProductAdd01.jsx";
 import ProductAdd2 from "./Pages/ProductAdd02/ProductAdd02.jsx";
 import AdminDashboard from "./AdminSide/AdminPages/Dashboard/AdminDashboard.jsx";
-import AdminOrder from "./AdminSide/AdminPages/AdminDashboard/Orders/AdminOrders.jsx";
-import PlaceOrder from "./AdminSide/adminComponents/Place Order/PlaceOrder.jsx";
-import AdminProduct from "./AdminSide/AdminPages/AdminDashboard/Products/AdminProduct.jsx";
-import EditProduct from "./Pages/EditProduct/EditProduct.jsx";
-import AdminEdit from "./AdminSide/AdminPages/AdminDashboard/Edit/AdminEdit.jsx";
+import AdminStat from "./AdminSide/AdminPages/AdminStat/AdminStat.jsx";
 
 function App() {
   const Cards = Instructions.map((card) => {
+
+  
+  
     return <Card card={card} />;
   });
-
   return (
     <Router>
       <div>
@@ -39,15 +37,21 @@ function App() {
           <Route path="/ProductAdd1" element={<ProductAdd1 />} />
           <Route path="/ProductAdd2" element={<ProductAdd2 />} />
           <Route path="/Dashboard" element={<AdminDashboard />} />
-          <Route path="/Order" element={<AdminOrder />} />
-          <Route path="/Place" element={<PlaceOrder />} />
-          <Route path="/Product" element={<AdminProduct />} />
-          <Route path="/Edit" element={<EditProduct />} />
-          <Route path="/EditAdmin" element={<AdminEdit />} />
+          <Route path="/SalesStat" element={<AdminStat />} />
         </Routes>
       </div>
     </Router>
+
+    
+          
+            
+    
+
+          
+
+    
+    
+  
   );
 }
-
 export default App;

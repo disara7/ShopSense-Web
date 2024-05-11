@@ -5,9 +5,11 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import InsertChartOutlinedIcon from "@mui/icons-material/InsertChartOutlined";
 import TextsmsOutlinedIcon from "@mui/icons-material/TextsmsOutlined";
-import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
-import { Link } from "react-router-dom";
+import SettingsOutlined from "@mui/icons-material/SettingsOutlined";
+
+import { Link, NavLink } from "react-router-dom";
 
 const SideNav = () => {
   return (
@@ -32,16 +34,20 @@ const SideNav = () => {
             <span className="list-text">Products</span>
           </li>
         </Link>
+        <Link to="/SalesStat" className="CustomLink">
         <li className="salsesReport">
           <InsertChartOutlinedIcon style={{ color: "black" }} />
           <span className="list-text">Sales Report</span>
         </li>
+        </Link>
+        <Link to="/" className="CustomLink">
         <li className="messages">
           <TextsmsOutlinedIcon style={{ color: "black" }} />
           <span className="list-text">Messages</span>
         </li>
+        </Link>
         <li className="settings">
-          <SettingsOutlinedIcon sx={{ color: "black" }} />
+          <SettingsOutlined sx={{ color: "black" }} />
           <span className="list-text">Withdraw</span>
         </li>
         <Link to="/" className="CustomLink">
