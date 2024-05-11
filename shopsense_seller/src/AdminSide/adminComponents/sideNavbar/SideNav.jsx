@@ -38,8 +38,8 @@ const SideNav = () => {
       icon: <TextsmsOutlinedIcon />,
     },
     {
-      path: "/",
-      name: "Withdraw",
+      path: "/Payout",
+      name: "Payout",
       icon: <MonetizationOnOutlinedIcon />,
     },
     {
