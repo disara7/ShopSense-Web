@@ -13,7 +13,7 @@ function EditProduct() {
     <div className="productpage">
       <h2>
         <button className="BackProductEdit">
-          <Link to="/Product" className="CustomLink">
+          <Link to="/Products" className="CustomLink">
             ↩
           </Link>
         </button>
