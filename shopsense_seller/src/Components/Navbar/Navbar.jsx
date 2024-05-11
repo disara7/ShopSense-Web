@@ -26,7 +26,7 @@ function Navbar() {
           </li>
           <li>
             <Link to="/Benifit" className="CustomLink">
-              Benefit{" "}
+              Benefits{" "}
             </Link>
           </li>
         </ul>
