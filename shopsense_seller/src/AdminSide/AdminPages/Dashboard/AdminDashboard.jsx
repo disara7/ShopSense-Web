@@ -9,7 +9,6 @@ import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
 import SellOutlinedIcon from "@mui/icons-material/SellOutlined";
 import PersonAddOutlinedIcon from "@mui/icons-material/PersonAddOutlined";
 import SignUpNavBar from "../../../Components/SignUpNavBar/SignUpNavBar";
-
 const AdminDashboard = () => {
   return (
     <div className="dashboard-wrapper">
