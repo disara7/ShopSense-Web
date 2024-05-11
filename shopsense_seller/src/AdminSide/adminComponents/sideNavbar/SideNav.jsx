@@ -44,10 +44,12 @@ const SideNav = () => {
           <SettingsOutlinedIcon sx={{ color: "black" }} />
           <span className="list-text">Withdraw</span>
         </li>
-        <li className="signout">
-          <LogoutOutlinedIcon style={{ color: "black" }} />
-          <span className="list-text">Sign Out</span>
-        </li>
+        <Link to="/" className="CustomLink">
+          <li className="signout">
+            <LogoutOutlinedIcon style={{ color: "black" }} />
+            <span className="list-text">Sign Out</span>
+          </li>{" "}
+        </Link>
       </ul>
     </div>
   );

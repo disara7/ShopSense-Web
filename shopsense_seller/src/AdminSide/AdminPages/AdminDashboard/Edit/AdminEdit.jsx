@@ -13,12 +13,12 @@ import TableComponentOrder from "../../../adminComponents/tableComponentOrder/ta
 import PopupScreen from "../../../../Components/Popup/Popup";
 import TableComponentProduct from "../../../adminComponents/tableComponentProduct/tableComponentProduct";
 import EditProduct from "../../../../Pages/EditProduct/EditProduct";
-
+import SignUpNavBar from "../../../../Components/SignUpNavBar/SignUpNavBar";
 const AdminEdit = () => {
   return (
     <div className="dashboard-wrapper">
       <div className="TopMenuAdmin">
-        <FormNavBar />
+        <SignUpNavBar />
       </div>
 
       <div className="dashboard-container">

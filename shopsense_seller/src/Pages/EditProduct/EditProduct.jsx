@@ -74,10 +74,6 @@ function EditProduct() {
           </div>
 
           <div class="input__box">
-            <span class="details">Size</span>
-            <SizeDropdown />
-          </div>
-          <div class="input__box">
             <span class="details">Brand</span>
             <div className="EditBoxHolder">
               <input type="text" placeholder="Embark" required readOnly></input>
@@ -85,10 +81,6 @@ function EditProduct() {
                 <button className="editbtn2">✎</button>
               </div>
             </div>
-          </div>
-          <div class="input__box">
-            <span class="details">Fit</span>
-            <FitDropdown />
           </div>
 
           <div class="input__box">

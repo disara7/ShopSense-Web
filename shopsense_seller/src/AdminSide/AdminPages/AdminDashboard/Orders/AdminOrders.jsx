@@ -11,12 +11,13 @@ import PersonAddOutlinedIcon from "@mui/icons-material/PersonAddOutlined";
 import { Bt } from "react-flags-select";
 import TableComponentOrder from "../../../adminComponents/tableComponentOrder/tableComponentOrder";
 import PopupScreen from "../../../../Components/Popup/Popup";
+import SignUpNavBar from "../../../../Components/SignUpNavBar/SignUpNavBar";
 
 const AdminOrder = () => {
   return (
     <div className="dashboard-wrapper">
       <div className="TopMenuAdmin">
-        <FormNavBar />
+        <SignUpNavBar />
       </div>
 
       <div className="dashboard-container">

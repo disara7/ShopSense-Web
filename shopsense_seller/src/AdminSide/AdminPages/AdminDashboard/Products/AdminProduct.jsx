@@ -12,12 +12,14 @@ import { Bt } from "react-flags-select";
 import TableComponentOrder from "../../../adminComponents/tableComponentOrder/tableComponentOrder";
 import PopupScreen from "../../../../Components/Popup/Popup";
 import TableComponentProduct from "../../../adminComponents/tableComponentProduct/tableComponentProduct";
+import SignUpNavBar from "../../../../Components/SignUpNavBar/SignUpNavBar";
+import { Link } from "react-router-dom";
 
 const AdminProduct = () => {
   return (
     <div className="dashboard-wrapper">
       <div className="TopMenuAdmin">
-        <FormNavBar />
+        <SignUpNavBar />
       </div>
 
       <div className="dashboard-container">
@@ -32,6 +34,12 @@ const AdminProduct = () => {
             <div className="OrderButtonHolder">
               <div className="rt-txt">
                 <span className="rt-txt1">Product Details</span>
+                {"   "}
+                <Link to="/ProductAdd1">
+                  <button>
+                    <b>+ Add</b>
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="top-products">

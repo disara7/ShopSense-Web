@@ -32,13 +32,12 @@
 .content2 {
   position: absolute;
   left: 0;
-  margin-left: 930px;
+  margin-left: 820px;
   top: 450px;
   width: 300px;
 }
 
 .content2 p {
-  text-justify: inter-word;
   text-align: justify;
 }
 
